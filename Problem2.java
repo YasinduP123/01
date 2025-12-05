@@ -11,8 +11,8 @@ class Problem2 {
     public static List<String> twoListsCombiner(int[] l1,char[] l2){
         List<String> l3 = new ArrayList<>();
         for (int i = 0; i < l2.length; i++) {
-            l3.add(String.valueOf(l1[i]));
             l3.add(String.valueOf(l2[i]));
+            l3.add(String.valueOf(l1[i]));
         }
         return l3;
     }
